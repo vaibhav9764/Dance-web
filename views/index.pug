@@ -1,0 +1,76 @@
+doctype html
+html
+  head
+    title Omni Dance Academy 
+    style
+      include ../static/style.css
+  body
+    nav#navbar 
+        ul.list
+            div#logo 
+              img(src="/static/logo.png") 
+              | ODA
+            li #[a(href='/') Home] 
+            li #[a(href='/') About Us] 
+            li #[a(href='/') Services ] 
+            li #[a(href='/') Class info] 
+            li #[a(href='/') Contact us] 
+    
+    section#introSection 
+      div.slogen
+        div  Welcome to omni's Academy 
+        div.small  Eat Sleep Dance Repeat
+
+    section#missionSection
+      h2 our Mission
+      div.container
+        div.card
+          h3 Dance perfection
+          div.card-box
+            div.card-img
+              img(src="/static/logo-1.png", alt="not found")
+            div.card-content
+              | we will help you in achieving the highest level of technical skill and artistry in dance performance
+        div.card
+          h3 Dance as you like
+          div.card-box
+            div.card-img
+              img(src="/static/logo-2.png", alt="not found")
+            div.card-content
+              | in this Academy you can dance in a way that suits you, in a manner that feels natural and enjoyable to you
+        div.card
+          h3 Expert Guide
+          div.card-box
+            div.card-img
+              img(src="/static/logo-3.png", alt="not found")
+            div.card-content
+              | if you are new to dancing, don't be afraid our expert help you throught your dance journey 
+
+    section#danceGallery 
+      h2 Photo Gallery
+      div.gallery
+        img(src="/static/1-pic.jpeg", alt="not found")
+        img(src="/static/2-pic.jpeg", alt="not found")
+        img(src="/static/3-pic.jpeg", alt="not found")
+        img(src="/static/4-pic.jpeg", alt="not found")
+        img(src="/static/5-pic.jpeg", alt="not found")
+        img(src="/static/6-pic.png", alt="not found")
+        img(src="/static/7-pic.jpeg", alt="not found")
+        img(src="/static/8-pic.jpeg", alt="not found")
+        img(src="/static/9-pic.jpeg", alt="not found")
+
+
+
+
+    section#sponserSection 
+      h2 our sponsers 
+      div.sponser
+        img(src="/static/sp-1.png", alt="not found")
+        img(src="/static/sp-2.png", alt="not found")
+        img(src="/static/sp-3.png", alt="not found")
+        img(src="/static/sp-4.png", alt="not found")
+
+    footer#footer  
+        | Copyright 2023 © OmniDanceAcademy | All rights reserved 
+    script
+      include ../static/index.js

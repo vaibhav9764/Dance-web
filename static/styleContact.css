@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&family=Lacquer&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Ubuntu&display=swap');
+
+.container{
+    height: 100vh;
+
+}
+h1 {
+    text-align: center;
+    font-family: 'Yeon Sung', cursive;
+    padding: 10px;
+    margin: 5px;
+
+}
+
+#myform {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+#myform .myinput {
+    width: 50%;
+    padding: 11px;
+    margin: 9px;
+    border-radius: 7px;
+    outline: none;
+    font-size: 20px;
+
+
+}
+
+.btn {
+    font-size: 22px;
+    padding: 5px;
+    margin: 10px;
+    background-color: #ff5454;
+    border-radius: 7px;
+    outline: none;
+    color: white;
+}
+.btn:hover{
+    cursor: pointer;
+    color: black;
+}
